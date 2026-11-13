@@ -542,11 +542,17 @@ function Next() {
                   <div className="opportunity-images">
                     {o.images.map((img, imgIdx) => (
                       <figure key={imgIdx} className="opportunity-image-item">
-                        <img src={img.src} alt={img.caption} loading="lazy" />
-                        <figcaption>
-                          <strong>{img.caption}</strong>
-                          {img.event && <span>{img.event}</span>}
-                        </figcaption>
+                        <img
+                          src={img.src}
+                          alt={img.caption || "Engagement photo"}
+                          loading="lazy"
+                        />
+                        {(img.caption || img.event) && (
+                          <figcaption>
+                            {img.caption && <strong>{img.caption}</strong>}
+                            {img.event && <span>{img.event}</span>}
+                          </figcaption>
+                        )}
                       </figure>
                     ))}
                   </div>

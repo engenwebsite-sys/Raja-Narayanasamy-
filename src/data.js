@@ -180,13 +180,13 @@ export const opportunities = [
     images: [
       {
         src: speakingKeynote,
-        caption: "Keynote Address",
-        event: "Kongunadu Institutions",
+        // caption: "Keynote Address",
+        // event: "Kongunadu Institutions",
       },
       {
         src: speakingPanel,
-        caption: "Panel Discussion",
-        event: "GBS Leadership Summit 2025, Bangalore",
+        // caption: "Panel Discussion",
+        // event: "GBS Leadership Summit 2025, Bangalore",
       },
     ],
   },
@@ -199,13 +199,13 @@ export const opportunities = [
     images: [
       {
         src: awardEmergingTech,
-        caption: "Winner — Emerging Technology Integration",
-        event: "AMA Futurescape 2025",
+        // caption: "Winner — Emerging Technology Integration",
+        // event: "AMA Futurescape 2025",
       },
       {
         src: awardCorporateIisc,
-        caption: "Corporate Award Ceremony",
-        event: "IISc Bengaluru",
+        // caption: "Corporate Award Ceremony",
+        // event: "IISc Bengaluru",
       },
     ],
   },
@@ -218,8 +218,8 @@ export const opportunities = [
     images: [
       {
         src: industryTalk,
-        caption: "Industry Walk & Talk — 40+ Experts",
-        event: "Academic & Industry Forum",
+        // caption: "Industry Walk & Talk — 40+ Experts",
+        // event: "Academic & Industry Forum",
       },
     ],
   },
